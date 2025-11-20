@@ -1,3 +1,10 @@
+# -*- coding: utf-8 - *-
+"""
+Created on Mon Nov  3 16:04:10 2025
+
+@author: geam9
+"""
+
 from __future__ import annotations
 import os
 import re
@@ -6,12 +13,6 @@ from typing import Dict, Any, List
 from pydantic import BaseModel, Field
 import streamlit as st
 from dotenv import dotenv_values
--*- coding: utf-8 - *-
-"""
-Created on Mon Nov  3 16:04:10 2025
-
-@author: geam9
-"""
 
 
 config = dotenv_values()
